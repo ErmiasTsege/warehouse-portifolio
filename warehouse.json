@@ -1,0 +1,64 @@
+[
+    {
+        "name": "NC warehouse",
+         "location": "NC",
+         "capacity": 300 ,
+        "image": "https://www.netleaseadvisor.com/wp-content/uploads/2016/09/Verizon-net-lease-investmetn-800x364.jpg",
+        "pallets": [
+            {
+              
+                 "capacity_of_pallet":10,
+               
+                "boxes": [
+                    {
+                      
+                        "box_name": "food"
+                    }
+                 
+                ]
+            }
+        ]
+        },
+        {
+            "name": "Dallas warehouse",
+             "location": "Dallas",
+             "capacity": 200 ,
+            "image": "https://es.habcdn.com/photos/project/medium/naves-de-hormigon-prefabricado-comerciales-e-industriales-1194433.jpg",
+            "pallets": [
+                {
+                    
+                     "capacity_of_pallet":10,
+                    
+                    "boxes": [
+                        {
+                            
+                            "box_name": "stationary box"
+                        }
+                       
+                      
+                    ]
+                }
+            ]
+            },{
+                "name": "CA warehouse",
+                 "location": "CA",
+                 "capacity": 500 ,
+                "image": "https://penntexconstruction.com/wp-content/uploads/2020/07/103-Commerce_Exterior_aerial_web-700x600.jpg",
+                "pallets": [
+                    {
+                     
+                         "capacity_of_pallet":10,
+                        
+                        "boxes": [
+                            {
+                             
+                                "box_name": "Electronics Box"
+                            }
+                          
+                          
+                        ]
+                    }
+                ]
+                }
+]
+

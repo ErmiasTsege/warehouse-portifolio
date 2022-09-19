@@ -1,0 +1,292 @@
+body{
+    /* background-color: aquamarine; */
+    margin:0;
+    padding:0;
+}
+*{
+    margin:0;
+    padding:0
+}
+html{
+    padding:0;
+    margin:0;
+}
+#header-container{
+    width: 100%;
+}
+img.card-img-top{
+    min-width: 100%;
+}
+/* img {
+    max-width: 100%;
+} */
+#header-container a:hover{
+    background-color: black;
+    color: white
+}
+#header-container a{
+  
+    color: white;
+  
+}
+#complete{
+  display: inline-block;
+}
+/* #banner-container .container-fluid{
+    width:100%;
+    background-size: initial;
+    margin-bottom: 50px;
+    height: 500px;
+    background-position-x: center;
+    position: relative;
+    top: -55;
+    z-index: -100;
+    background-size: cover;
+} */
+#banner-container img{
+  width:100%;
+
+  /* background-size: initial; */
+  /* margin-bottom: 50px; */
+  height: 500px;
+  /* background-position-x: center; */
+  position: relative;
+  top: -55;
+  z-index: -100;
+  /* background-size: cover; */
+}
+.container-fluid{
+    padding:0;
+    margin:0;
+}
+.navbar{
+    position: relative;
+    height: 100px;
+    z-index: 100;
+    width: 100%;
+    /* position:fixed; */
+    opacity: 0.9;
+}
+.card{
+    display:flex;
+    width: 420px;
+    height:340px;
+    margin: 15px;
+    text-align-last: center;
+}
+
+.btn-primarys {
+  color:red;
+  background-color: black;
+  border-color: #0d6efd;
+  margin-top: 20px;
+  width: 70%;
+  vertical-align: middle;
+  margin-left: 10%;
+}
+
+.new-btn{
+  background-color: black;
+  border-color: gray;
+  border-width: initial;
+  margin-top: 20px;
+  vertical-align: middle;
+  margin-left: 10%;
+  width: 80%;
+  height: 50px;
+}
+
+.new-card {
+  position: relative;
+  /* display: flex; */
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+/* div.card-body{
+  
+    width: 100px;
+    height:200px;
+} */
+
+
+
+span.navbar-toggler-icon{
+background-color: rgb(255, 255, 255);
+}
+div#singlewarehouse img{
+    margin: 0 100px;
+}
+
+div #all-btns{
+    
+    display: flex;
+    
+    margin: 0 100px;
+  
+}
+div #all-btns{
+   
+    margin-top: 80px;
+  
+}
+
+button#details-btn{
+margin:20px
+}
+button#pallet-btn{
+    margin:20px   
+}
+button#allwarehouse-btn{
+    margin:20px  ;
+    color:white; 
+}
+button#allwarehouse-btn a{
+
+    color:white; 
+}
+button#delete-btn{
+    margin:20px 
+}
+#foot-note{
+    display: flex;   
+     
+}
+#foot-note a{
+  color: white;  
+   
+}
+
+.footer-container{
+    background-color: black;
+    color : white;
+    width:100%;
+    position: relative;
+
+    /* margin-top: 300px; */
+}
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
+.card-pallet{
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+  transition: transform 0.1s ease-in;
+}
+.card-pallet:hover{
+  transform: scale(1.05);
+}
+.card-warehouses{
+  transition: transform 0.12 ease-in;
+}
+.card-warehouses:hover{
+  transform: scale(1.05);
+}
+
+/* login */
+
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color:black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+/* a {
+  color: dodgerblue;
+} */
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.add-warehouse-form{
+    margin-top:200px;
+    /* position:relative; */
+  z-index: -200;
+
+
+}
+.add-btn a {
+  color:white;
+}
+/* loginend */
+.pallet-view-btn a {
+    color:white
+}
+.btn-dark a{ color:white}
+.btn-add-box{
+  margin:15px;
+}
+.btn-box-container ul{
+  border: 1px solid black;
+}
+.pallet-container ul {
+  border: 1px solid black;
+}
+@media (max-width:720px){
+    .navbar{
+        height: 200px;
+    }
+}
+.btn-primary1{
+  color: #fff;
+  background-color: black;
+  border-color: gray;
+  margin-top: 10px;
+  width: 350px;
+}
